@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/4cf13532ae.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -58,18 +60,20 @@
         </div>
     </main>
 
-    <!-- QA Section -->
-    <section>
+    <!-- QnA Section -->
+    <section class="bg-light">
         <div class="container py-5">
             <div class="row">
                 <header>
-                    <h1 class="text-center">Question & Answer</h1>
+                    <h1 class="text-center text-primary"> <q>Q & A</q> </h1>
                 </header>
-                <div class="col-md-6 py-3">
-                    
+                <div class="col-md-6 py-3 ">
+                    <h2><i class="fa-solid fa-right-from-bracket"></i> How does javascript work?</h2>
+                    <p class="pe-5 fs-5"><i class="fa-solid fa-angles-right text-primary"></i> JavaScript is a high-level programming language. Nowadays it's a popular programming language which is used to make website dynamic. it runs in browser through V8 enginee. Actually V8 engine is a <strong>"just in time compiler"</strong> which progrrammed by C++ . Some browser has it's own engine to run javascript for example Firefox has "Spider Monkey" , Edge-Browser has "Chakra" and Safari has "Javascript Cores".</p>
                 </div>
                 <div class="col-md-6 py-3">
-                    
+                    <h2><i class="fa-solid fa-right-from-bracket"></i> What does javascript event loop do?</h2>
+                    <p class="pe-5 fs-5"><i class="fa-solid fa-angles-right text-primary"></i> Javascript is also a single threaded and interpreted Asynchronus language . Actually It works in two ways when working on V8 Engine.  these are Synchronous and Asynchronous methods. the V8 engine runs code line by line and adds function to call stack. setTimeout and setInterval are two event loop. Event Queue is a special queue, which keeps tracking of all functions queues, which are needed to be pushed into the call stack. The event queue is also responsible for sending new functions to the track for processing. JavaScript runs these code like a loop is called javascript even loop. This is what JavaScript Event Loop do.</p>
                 </div>
             </div>
         </div>
